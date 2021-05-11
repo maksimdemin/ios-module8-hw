@@ -15,6 +15,8 @@
 		6C53841E26488F56005737AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C53841C26488F56005737AB /* LaunchScreen.storyboard */; };
 		6C53842926488F57005737AB /* Module8_HWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53842826488F57005737AB /* Module8_HWTests.swift */; };
 		6C53843426488F57005737AB /* Module8_HWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C53843326488F57005737AB /* Module8_HWUITests.swift */; };
+		6C5384422649DEFE005737AB /* CollageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5384412649DEFE005737AB /* CollageViewController.swift */; };
+		6C538444264ABD80005737AB /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C538443264ABD80005737AB /* SegmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6C53842F26488F57005737AB /* Module8-HWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Module8-HWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C53843326488F57005737AB /* Module8_HWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module8_HWUITests.swift; sourceTree = "<group>"; };
 		6C53843526488F57005737AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C5384412649DEFE005737AB /* CollageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageViewController.swift; sourceTree = "<group>"; };
+		6C538443264ABD80005737AB /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				6C53841126488F4F005737AB /* AppDelegate.swift */,
 				6C53841326488F50005737AB /* SceneDelegate.swift */,
-				6C53841526488F50005737AB /* ViewController.swift */,
 				6C53841726488F50005737AB /* Main.storyboard */,
+				6C53841526488F50005737AB /* ViewController.swift */,
+				6C5384412649DEFE005737AB /* CollageViewController.swift */,
+				6C538443264ABD80005737AB /* SegmentViewController.swift */,
 				6C53841A26488F56005737AB /* Assets.xcassets */,
 				6C53841C26488F56005737AB /* LaunchScreen.storyboard */,
 				6C53841F26488F56005737AB /* Info.plist */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C5384422649DEFE005737AB /* CollageViewController.swift in Sources */,
 				6C53841626488F50005737AB /* ViewController.swift in Sources */,
+				6C538444264ABD80005737AB /* SegmentViewController.swift in Sources */,
 				6C53841226488F4F005737AB /* AppDelegate.swift in Sources */,
 				6C53841426488F50005737AB /* SceneDelegate.swift in Sources */,
 			);
@@ -443,10 +451,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.maxd.Module8-HW";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,10 +470,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.maxd.Module8-HW";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
